@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.example.androidhw.bnv_fragments.ChatFragment"
+        android:label="ChatFragment"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.androidhw.bnv_fragments.HistoryFragment"
+        android:label="HistoryFragment"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.androidhw.bnv_fragments.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.example.androidhw.bnv_fragments.ServicesFragment"
+        android:label="ServicesFragment"
+        tools:layout="@layout/fragment_services" />
+
+    <include app:graph="@navigation/nested_graph" />
+</navigation>
