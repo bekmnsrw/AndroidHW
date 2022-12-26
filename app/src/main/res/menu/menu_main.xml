@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dark_mode"
+        android:icon="@drawable/ic_dark_mode"
+        app:showAsAction="ifRoom"
+        android:title="Dark mode" />
+
+    <item
+        android:id="@+id/delete_all"
+        android:icon="@drawable/ic_delete_all"
+        app:showAsAction="ifRoom"
+        android:title="Delete all" />
+
+    <item
+        android:id="@+id/add_todo"
+        android:icon="@drawable/ic_done"
+        app:showAsAction="ifRoom"
+        android:title="Add todo" />
+</menu>

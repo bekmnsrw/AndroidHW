@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CardViewTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?colorOnSurface</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/monsterrat_bold</item>
+    </style>
+
+    <style name="CardViewDescription">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/monsterrat_regular</item>
+    </style>
+
+    <style name="CardViewDate">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="fontFamily">@font/monsterrat_regular</item>
+    </style>
+
+    <style name="MainText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/monsterrat_regular</item>
+    </style>
+    
+    <style name="EditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">?colorOnSurface</item>
+        <item name="fontFamily">@font/monsterrat_regular</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="tint">?colorError</item>
+    </style>
+</resources>
